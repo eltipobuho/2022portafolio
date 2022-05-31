@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Portafolio Jose Luis Armenta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56b7ab2f2e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="indexeng.html">RETURN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>WHO AM I</h1>
+    </section>
+
+    <!-----Descripción----->
+
+    <section class="sobre-mi">
+      <div class="row">
+        <div class="sobre-col">
+          <p>I am a graphic designer who lives in Bogotá, Colombia. By my studies in the university, work and life  experience, i have learned the handle of many useful tools for the proffession like Vector design, Photo editing, 3D modelling, web design, branding and content localization.
+          <br><br>
+          I have worked in businesses of digital prepress, graphic design and content localization for clients in Europe.
+          <br><br>
+          In a personal level i am in constant growth of my knowledge with courses, videogame development as a hobby and english as a second language.</p>
+        </div>
+        <div class="sobre-col">
+          <img src="images/100_0548.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-----Experiencias----->
+
+    <section class="services">
+      <h1>FORMAL DEGREES</h1>
+      <div class="row">
+        <div class="services-col">
+          <h3>SENA Institute</h3>
+          <p>Career in Digital Prepress. <br><br> Graduated as Technician in Digital Prepress.</p>
+        </div>
+        <div class="services-col">
+          <h3>Fundación de Educación <br> Superior San José</h3>
+          <p>Career in Industrial Design. <br><br> Graduated as Technology in Industrial Design.</p>
+        </div>
+        <div class="services-col">
+          <h3>Fundación Universitaria <br> del Área Andina</h3>
+          <p>Career in Graphic Design. <br><br> Graduated as Professional in Graphic Design.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h1>PROFESSIONAL EXPERIENCE</h1>
+      <div class="row">
+        <div class="services-col">
+          <h3>Contextos Gráficos</h3>
+          <p>Business in Digital Prepress. <br><br> Prepress Assistant.</p>
+        </div>
+        <div class="services-col">
+          <h3>Sistemas Holográma</h3>
+          <p>Business in Digital Prepress. <br><br> Prepress Assistant.</p>
+        </div>
+        <div class="services-col">
+          <h3>Red Design System Service</h3>
+          <p>Business in graphic design and Content localization. <br><br> Graphic Designer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h1>ON MY OWN</h1>
+      <div class="row">
+        <div class="services-col">
+          <h3>Instituto Springfield</h3>
+          <p>Languages Institute. <br><br> English Level B1.</p>
+        </div>
+        <div class="services-col">
+          <h3>Domestika</h3>
+          <p>Web site of Online courses. <br><br> 3D Modelling in Blender. <br> Web Development. <br> Modelling in LowPoly. </p>
+        </div>
+        <div class="services-col">
+          <h3>Crehana</h3>
+          <p>Web site of Online courses. <br><br> Logotypes Design. <br> Basic Illustrator. </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----Footer----->
+
+    <section class="footer">
+      <p>© José Luis Armenta Porras</p>
+    </section>
+
+    <!-----Javascript for Toggle Menu----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu(){
+        navLinks.style.right = "0";
+      }
+      function hidemenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>

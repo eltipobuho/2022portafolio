@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Portafolio Jose Luis Armenta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56b7ab2f2e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">VOLVER</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>DISEÑOS A LA VENTA</h1>
+    </section>
+
+    <!-----Proyecto----->
+
+    <section class="estudios">
+      <h3>Cliente</h3>
+      <p>TeePublic, RedBubble y TeeSpring.</p>
+      <h3>Año: 2022</h3>
+      <p>Una línea de diseños puesta a la venta en una serie de productos dispuesta en varias páginas para freelancers.</p>
+
+      <div class="row">
+        <div class="estudios-col">
+          <img src="images/work-110620294-camiseta-deportiva.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="estudios-col">
+          <img src="images/work-111127478-camiseta-premium-de-cuello-ancho.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="estudios-col">
+          <img src="images/work-110856589-camiseta-clásica.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="estudios-col">
+          <img src="images/work-111426349-sudadera-ligera-con-capucha.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="estudios-col">
+          <img src="images/work-109886352-camiseta-de-manga-larga.jpg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="estudios-col">
+          <img src="images/work-109888672-camiseta-de-tejido-mixto.jpg" alt="">
+        </div>
+      </div>
+      <a href="https://eltipobuho.creator-spring.com" class="hero-btn">Tienda en TeeSpring</a>
+      <a href="https://www.teepublic.com/user/eltipobuho" class="hero-btn">Tienda en TeePublic</a>
+      <a href="https://www.redbubble.com/es/people/eltipobuho/shop?asc=u" class="hero-btn">Tienda en RedBubble</a>
+    </section>
+
+    <!-----Footer----->
+
+    <section class="footer">
+      <p>© José Luis Armenta Porras</p>
+    </section>
+
+    <!-----Javascript for Toggle Menu----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu(){
+        navLinks.style.right = "0";
+      }
+      function hidemenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>

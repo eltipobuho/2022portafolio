@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Portafolio Jose Luis Armenta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56b7ab2f2e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">VOLVER</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>QUIEN SOY</h1>
+    </section>
+
+    <!-----Descripción----->
+
+    <section class="sobre-mi">
+      <div class="row">
+        <div class="sobre-col">
+          <p>Soy un diseñador gráfico que vive en Bogotá, Colombia. Por mis estudios universitarios y experiencias laborales y personales, he aprendido el manejo de distintas herramientas útlies para la profesión como el manejo vectorial, retoque fotográfico, modelado 3D, diseño web, branding y localización de contenidos.
+          <br><br>
+          He trabajado con empresas de preimpresión digital, diseño gráfico y localización de contenidos para clientes en Europa.
+          <br><br>
+          A nivel personal estoy en constante refuerzo de mis conocimientos con cursos, desarrollo de videojuegos como un hobby e ingles como lengua secundaria.</p>
+        </div>
+        <div class="sobre-col">
+          <img src="images/100_0548.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-----Experiencias----->
+
+    <section class="services">
+      <h1>ESTUDIOS FORMALES</h1>
+      <div class="row">
+        <div class="services-col">
+          <h3>Instituto SENA</h3>
+          <p>Carrera en Preimpresión Digital. <br><br> Titulado como Técnico en Preimpresión Digital.</p>
+        </div>
+        <div class="services-col">
+          <h3>Fundación de Educación <br> Superior San José</h3>
+          <p>Carrera en Diseño Industrial <br><br> Titulado como Tecnólogo en Diseño Industrial.</p>
+        </div>
+        <div class="services-col">
+          <h3>Fundación Universitaria <br> del Área Andina</h3>
+          <p>Carrera en Diseño Gráfico. <br><br> Titulado como Profesional en Disño Gráfico.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h1>EXPERIENCIA PROFESIONAL</h1>
+      <div class="row">
+        <div class="services-col">
+          <h3>Contextos Gráficos</h3>
+          <p>Empresa de Preimpresión Digital. <br><br> Asistente de Preimpresión.</p>
+        </div>
+        <div class="services-col">
+          <h3>Sistemas Holográma</h3>
+          <p>Empresa de Preimpresión Digital. <br><br> Asistente de Preimpresión.</p>
+        </div>
+        <div class="services-col">
+          <h3>Red Design System Service</h3>
+          <p>Empresa de Diseño Gráfico y Localización de Contenido. <br><br> Diseñador Gráfico.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <h1>POR MI CUENTA</h1>
+      <div class="row">
+        <div class="services-col">
+          <h3>Instituto Springfield</h3>
+          <p>Instituto de Idiomas. <br><br> Ingles nivel B1.</p>
+        </div>
+        <div class="services-col">
+          <h3>Domestika</h3>
+          <p>Sitio web de Cursos en línea. <br><br> Modelado 3D en Blender. <br> Desarrollo Web. <br> Modelado de personajes LowPoly. </p>
+        </div>
+        <div class="services-col">
+          <h3>Crehana</h3>
+          <p>Sitio web de Cursos en línea. <br><br> Diseño de Logotipos. <br> Manejo de Illustrator. </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----Footer----->
+
+    <section class="footer">
+      <p>© José Luis Armenta Porras</p>
+    </section>
+
+    <!-----Javascript for Toggle Menu----->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu(){
+        navLinks.style.right = "0";
+      }
+      function hidemenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+  </body>
+</html>
