@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_form = 'divmanesky@gmail.com'
+$email_form = 'info@elegant-lollipop-7d3462.com'
 
 $email_subject = 'New Form Submission';
 
@@ -17,7 +17,7 @@ $to = 'divmanesky@gmail.com';
 
 $headers = "From: $email_from \r\n";
 
-$headers .= "Reply-To: $visitor_email\r\n";
+$headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
