@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_form = 'divmanesky@gmail.com'
+$email_form = 'info@elegant-lollipop-7d3462.netlify.app.com'
 
 $email_subject = 'New Form Submission';
 
