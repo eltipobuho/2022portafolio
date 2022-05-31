@@ -341,6 +341,7 @@ h3{
 
 .icons .fa{
   color: #362720;
+  font-size: 36px;
   margin: 0 13px;
   cursor: pointer;
   padding: 18px;
@@ -417,21 +418,26 @@ h3{
 /*------ contactanos ------*/
 
 .contact-us{
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .contact-col{
-  flex-basis: 48%;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact-col div{
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
+.contact-col a{
+  color: #362720;
+  font-size: 20px;
+}
 .contact-col div .fa{
-  font-size: 28px;
-  color: #f44336;
+  font-size: 44px;
+  color: #362720;
   margin: 10px;
   margin-right: 30px;
 }
@@ -441,14 +447,6 @@ h3{
 .contact-col h5{
   font-size: 20px;
   margin-bottom: 5px;
-  color: #555;
+  color: #362720;
   font-weight: 400;
-}
-.contact-col input, .contact-col textarea{
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 17px;
-  outline: none;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
 }
