@@ -221,7 +221,6 @@ h3{
 }
 
 /*------ Proyectos ------*/
-
 .estudios{
   width: 80%;
   margin: auto;
@@ -239,6 +238,18 @@ h3{
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
+}
+.estudios-two-col{
+  flex-basis: 50%;
+  margin-bottom: 30px;
+  position: relative;
+}
+.estudios-two-col h4{
+  margin-top: 4%;
+  padding-bottom: 25px;
+}
+.estudios-two-col p{
+  text-align: justify;
 }
 .estudios-col img{
   width: 100%;
@@ -266,6 +277,50 @@ h3{
   text-align: left;
 }
 
+/*------ BLOQUES DE TEXTO ------*/
+
+.temas-explicando{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.temas-explicando img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.temas-explicando-min{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.temas-explicando-min img{
+  width: 40%;
+  border-radius: 10px;
+}
+.temas-explicando ul{
+  width: 70%;
+  margin: auto;
+}
+.temas-explicando ul li{
+  line-height: 50px;
+  font-size: 24px;
+  text-align: justify;
+}
+.temas-explicando p{
+  margin-top: 2%;
+}
+.temas-explicando-col{
+  display: flex;
+  padding-top: 30px;
+}
+.temas-explicando-col-left{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.temas-explicando-col-right{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
 /*------ TEXTOS ------*/
 
 .textos{
