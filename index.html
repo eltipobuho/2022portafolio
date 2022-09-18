@@ -15,8 +15,27 @@
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hidemenu()"></i>
           <ul>
-            <li><a href="indexeng.html">ENGLISH</a></li>
+            <h5>Idioma</h5>
+            <li><a href="indexeng.html">INGLES (ENG)</a></li>
           </ul>
+          <div class="nav-links-content">
+            <ul>
+              <h5>Proyectos</h5>
+              <li><a href="courses7.html">GSS App</a></li>
+              <li><a href="courses8.html">VetSite</a></li>
+              <li><a href="courses9.html">HowDoI</a></li>
+              <li><a href="courses.html">Work Fitness</a></li>
+              <li><a href="courses2.html">Casgua</a></li>
+              <li><a href="courses3.html">Make Up For Ever</a></li>
+              <li><a href="courses4.html">Buhoware</a></li>
+              <li><a href="courses5.html">Cafetero H&C</a></li>
+              <li><a href="courses6.html">A la venta</a></li>
+            </ul>
+            <ul>
+              <h5>Contacto</h5>
+              <li><a href="contact.html">CONTÁCTAME</a></li>
+            </ul>
+          </div>
         </div>
         <i class="fa fa-bars" onclick="showmenu()"></i>
       </nav>
@@ -30,6 +49,32 @@
     <!-----Course----->
 
     <section class="experiencia">
+      <div class="row">
+        <div class="experiencia-col">
+          <a href="courses7.html">
+            <img src="images/proyecto7.jpg" alt="GSS App">
+            <div class="layer">
+              <h3>APP DE LA <br> GOURMET <br> SANDWICH SHOP</h3>
+            </div>
+          </a>
+        </div>
+        <div class="experiencia-col">
+          <a href="courses8.html">
+            <img src="images/proyecto8.jpg" alt="VetSite Registration Form">
+            <div class="layer">
+              <h3>REGISTRO DE <br> MASCOTAS <br> VETSITE</h3>
+            </div>
+          </a>
+        </div>
+        <div class="experiencia-col">
+          <a href="courses9.html">
+            <img src="images/proyecto9.jpg" alt="GSS App">
+            <div class="layer">
+              <h3>APRENDIZAJE <br> TÉCNICO <br> HOWDOI</h3>
+            </div>
+          </a>
+        </div>
+      </div>
       <div class="row">
         <div class="experiencia-col">
           <a href="courses.html">
@@ -82,32 +127,6 @@
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="experiencia-col">
-          <a href="courses7.html">
-            <img src="images/proyecto7.jpg" alt="GSS App">
-            <div class="layer">
-              <h3>APP DE LA <br> GOURMET <br> SANDWICH SHOP</h3>
-            </div>
-          </a>
-        </div>
-        <div class="experiencia-col">
-          <a href="courses8.html">
-            <img src="images/proyecto8.jpg" alt="VetSite Registration Form">
-            <div class="layer">
-              <h3>REGISTRO DE <br> MASCOTAS <br> VETSITE</h3>
-            </div>
-          </a>
-        </div>
-        <div class="experiencia-col">
-          <a href="">
-            <img src="images/proyecto9.jpg" alt="GSS App">
-            <div class="layer">
-              <h3>MUY <br> PRONTO</h3>
-            </div>
-          </a>
-        </div>
-      </div>
     </section>
 
     <!-----Contactame----->
@@ -127,10 +146,10 @@
     <script>
       var navLinks = document.getElementById("navLinks");
       function showmenu(){
-        navLinks.style.right = "0";
+        navLinks.style.left = "0";
       }
       function hidemenu(){
-        navLinks.style.right = "-200px";
+        navLinks.style.left = "-300px";
       }
     </script>
 

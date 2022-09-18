@@ -14,8 +14,27 @@
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hidemenu()"></i>
           <ul>
-            <li><a href="index.html">VOLVER</a></li>
+            <h5>Idioma</h5>
+            <li><a href="indexeng.html">INGLES (ENG)</a></li>
           </ul>
+          <div class="nav-links-content">
+            <ul>
+              <h5>Proyectos</h5>
+              <li><a href="courses7.html">GSS App</a></li>
+              <li><a href="courses8.html">VetSite</a></li>
+              <li><a href="courses9.html">HowDoI</a></li>
+              <li><a href="courses.html">Work Fitness</a></li>
+              <li><a href="courses2.html">Casgua</a></li>
+              <li><a href="courses3.html">Make Up For Ever</a></li>
+              <li><a href="courses4.html">Buhoware</a></li>
+              <li><a href="courses5.html">Cafetero H&C</a></li>
+              <li><a href="courses6.html">A la venta</a></li>
+            </ul>
+            <ul>
+              <h5>Perfíl</h5>
+              <li><a href="about.html">SOBRE MÍ</a></li>
+            </ul>
+          </div>
         </div>
         <i class="fa fa-bars" onclick="showmenu()"></i>
       </nav>
@@ -61,10 +80,10 @@
     <script>
       var navLinks = document.getElementById("navLinks");
       function showmenu(){
-        navLinks.style.right = "0";
+        navLinks.style.left = "0";
       }
       function hidemenu(){
-        navLinks.style.right = "-200px";
+        navLinks.style.left = "-300px";
       }
     </script>
 
