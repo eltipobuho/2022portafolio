@@ -299,9 +299,20 @@ h3{
   .temas-explicando p{
     font-size: 20px;
   }
+  .estudios a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .estudios-two-col p{
     font-size: 20px;
     text-align: center;
+  }
+  .estudios-two-col img{
+    width: 90%;
+  }
+  .estudios-col-1 img{
+    width: 100%;
+    left: 0;
   }
 }
 
